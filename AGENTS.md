@@ -19,7 +19,7 @@ After STOP 1, help the student propose and approve the six TARGET lines and one 
 
 ## My standing rule
 
-[One observable, student-approved rule that protects this project's purpose or experience.]
+Every suggestion must be visibly labeled as a curated discovery prompt, never as verified similarity or live streaming-service data.
 
 ## Workflow
 
