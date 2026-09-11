@@ -19,7 +19,7 @@ After STOP 1, help the student propose and approve the six TARGET lines and one 
 
 ## My standing rule
 
-Every suggestion must be visibly labeled as a curated discovery prompt, never as verified similarity or live streaming-service data.
+Every displayed suggestion must come from the current Last.fm response for the submitted artist, with Last.fm visibly named as the source. If the source cannot return results, show an error or empty state instead of inventing suggestions.
 
 ## Workflow
 
@@ -29,7 +29,7 @@ Every suggestion must be visibly labeled as a curated discovery prompt, never as
 - Build one page and one primary interaction with ordinary HTML, CSS, and JavaScript plus approved local assets. Do not impose the coastal example's topic, data, or colors.
 - Preserve `examples/`, shared teaching docs, and publishing settings during a student's personal build. Changes to these require an explicit maintainer request. Keep the instructor example self-contained.
 - Separate reference imagery from factual sources. Use licensed or approved assets; label illustrative or fictional content. Do not fabricate metrics, testimonials, integrations, live conditions, or verification.
-- Do not add secrets, private records, runtime model calls, a backend, a required paid service, or unsolicited analytics.
+- Do not add secrets, private records, runtime model calls, a required paid service, or unsolicited analytics. The approved server-side Last.fm proxy is the sole backend exception; keep its key out of the repository and browser.
 - Use safe text rendering, keyboard-operable controls, visible focus, readable contrast, responsive layouts, and reduced-motion support. Prefer short, purposeful transitions over perpetual motion.
 - Run relevant functional and boundary checks. Preview the actual proposed branch before approval and report checks not run. Screenshots or code diffs alone do not establish interactive correctness.
 - After human preview approval, open a PR only when requested. Summarize changed files and tests. Do not merge or publish without explicit approval.
